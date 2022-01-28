@@ -2752,6 +2752,10 @@ const completionSpec: Fig.Spec = {
             name: "pattern",
           },
         },
+        {
+          name: "--graph",
+          description: "Display graphical representation of commit history",
+        },
       ],
       args: [
         {
